@@ -13,6 +13,7 @@ func TestAdd(t *testing.T) {
 
 func ExampleAdd() {
 	// This test will be compiled & not executed if output comment is removed
+	// no space btw ouput & : , else won't execute
 	sum := Add(7, 9)
 	fmt.Println(sum)
 	// Output: 16
